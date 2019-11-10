@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Francois+One|News+Cycle|Patua+One&display=swap" rel="stylesheet">
+        <title>PIZZA ORDER</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Pizza Order</h1>
+
+            <form>
+                <div class="group">
+                    <label for="name">Name</label>
+                    <div class="input-group ">
+                        <input type="text" name="name" id="name" class="box2">
+                    </div>
+                </div>
+                <div class="group">
+                    <label for="pizza-topping">Pizza Topping</label>
+                    <div class="input-group">
+                        <input type="radio" name="pizza-topping ">Supreme<br>
+                        <input type="radio" name="pizza-topping">Vegetarian<br>
+                        <input type="radio" name="pizza-topping">Hawaian<br>
+                    </div>
+                </div>
+                <div class="group">
+                    <label for="pizza-sauce">pizza-sauce</label>
+                    <div class="input-group">
+                        <select name="sauce" class="box2">
+                            <option value="tomato">Tomato</option>
+                            <option value="barbecue">Barbecue</option>
+                            <option value="secret_sauce">Secret Sauce</option>
+                        </select>    
+                        
+                    </div>
+                </div>
+                <div class="group">
+                    <label for="option-extra">Option Extra</label>
+                    <div class="input-group">
+                        <input type="checkbox" name="extra-cheese" >Extra Cheese<br>
+                        <input type="checkbox" name="gluten-free-base">Gluten Free Base<br>
+                    </div>
+                </div>
+                <div class="group">
+                    <label for="delivery">Delivery instructions</label>
+                    <div class="input-group ">
+                        <textarea  rows="3" clos="40" id="delivery" class="box2"></textarea>
+                    </div>
+                </div>
+
+                <input type="submit" name="order" value="SEND MY ORDER" class="box">
+
+            
+                
+
+            </form>
+        </div>
+    </body>
+</html>
